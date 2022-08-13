@@ -17,13 +17,15 @@ bool porownywanie(string slowo_1, string slowo_2){
         znak_1[i] = slowo_1[i];
         for (int j=0; j <= dlugosc_2; j++){
             znak_2[j] = slowo_2[j];
-            if (znak_1[i] == znak_2[j])
-                for (int z=0; z<= 25; z++)
+            if (znak_1[i] == znak_2[j]){
+                for (int z=0; z<= 25; z++){
                     if (litery[z] == znak_2[j]) break;
                     else if (z == 25){
                         litery[miejsce] = znak_2[j];
                         miejsce++;
-                    }  
+                    }
+                }
+            }
         }
     }
 
