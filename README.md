@@ -1,4 +1,3 @@
-# hello-world
+# Szkolne projekty
 
-test test
-# test
+Zadania zlecone w szkole.
